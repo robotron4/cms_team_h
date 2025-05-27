@@ -67,7 +67,7 @@
 		
 		<p class="credits-right fright">
 			
-			<span><?php printf( __( 'Theme by Max Mustermann', 'baskerville' )); ?> &mdash; </span><a class="tothetop" href="#"><?php _e( 'Up', 'baskerville' ); ?> &uarr;</a>
+			<span><?php printf( __( 'Theme by Test2', 'baskerville' )); ?> &mdash; </span><a class="tothetop" href="#"><?php _e( 'Up', 'baskerville' ); ?> &uarr;</a>
 			
 		</p>
 		
