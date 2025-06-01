@@ -19,7 +19,7 @@
         <!-- Navigation-->
 	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand" href="#page-top"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/img/navbar-logo.svg' ) ); ?>" alt="" /></a>
+		<a class="navbar-brand" href="#page-top"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/img/schriftzug-logo.svg' ) ); ?>" alt="" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -38,8 +38,7 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">Welcome To Our Studio!</div>
-                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+                <div class="masthead-subheading">Technische Hochschule Mittelhessen</div>
+                <div class="masthead-heading text-uppercase">Medieninformatik</div>
             </div>
         </header>
