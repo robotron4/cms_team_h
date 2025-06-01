@@ -25,13 +25,13 @@
                     <i class="fas fa-bars ms-1"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    </ul>
+                    <?php wp_nav_menu( array(
+                        'theme_location' => 'mainNav',                                                                         
+                        'menu_class' => 'navbar-nav text-uppercase ms-auto py-4 py-lg-0',
+                        'container' => 'ul',
+                        'add_li_class' => 'nav-item',
+                        'add_a_class' => 'nav-link'
+                    ) ); ?>
                 </div>
             </div>
         </nav>
