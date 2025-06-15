@@ -1,6 +1,4 @@
 <?php get_header(); ?>
-
-
 <!-- Services-->
         <section class="page-section" id="services">
             <div class="container">
